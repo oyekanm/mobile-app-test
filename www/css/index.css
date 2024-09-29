@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* html{
+    font-size: 62.5%;
+} */
+
+#incident-form {
+    margin-bottom: 20px;
+}
+
+input, select, textarea {
+    display: block;
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.incident-card {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: black;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.incident-card img{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+.incident-title{
+    font-size: 1.2rem;
+}
+.incident-desc{
+    font-size: .8rem;
+    font-weight: 500;
+}
+.incident-title span{
+    font-weight: 600;
+}
+.incident-report{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.incident-report button{
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: blue;
+    background-color: transparent;
+}
+.login-container{
+    padding: 1rem;
+    width: 80%;
+    max-width: 400px;
+    margin: 10% auto 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding-bottom: 4rem;
+}
+.login-container p{
+   font-size: 2rem;
+   font-weight: 600;
+}
+.login-span{
+    font-size: .8rem;
+    font-weight: 600;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.location-div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.location-div input{
+    display: inline;
+    width: 30%;
+}
+.set-location{
+    background-color: gray;
+    color: white;
+    margin-right: 10px;
+}
